@@ -4,7 +4,8 @@ require_once 'Bicycle.php';
 
 $bicycle = new Bicycle('blue', 1);
 echo $bicycle->forward();
-echo $bycicle-switchOn();
+$bicycle->setCurrentSpeed(5);
+echo $bicycle->switchOn();
 var_dump($bicycle);
 
 
